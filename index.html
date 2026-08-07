@@ -4,303 +4,346 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Nova Design | Agência Digital</title>
+
+    <meta name="description"
+        content="Agência especializada em desenvolvimento web, branding e marketing digital.">
 
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-   <h1>Nova<span>Design</span></h1>
+    <!-- HEADER -->
 
-</div>
+    <header id="header">
 
-<nav>
+        <div class="container">
 
-<ul>
+            <div class="logo">
+                <h2>Nova<span>Design</span></h2>
+            </div>
 
-    <li><a href="#home">Home</a></li>
+            <nav id="menu">
 
-    <li><a href="#sobre">Sobre</a></li>
+                <ul>
 
-    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#home">Home</a></li>
 
-    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
 
-    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
 
-</ul>
+                    <li><a href="#portfolio">Projetos</a></li>
 
-</nav>
+                    <li><a href="#depoimentos">Clientes</a></li>
 
-</header>
+                    <li><a href="#contato">Contato</a></li>
 
-<!-- Home -->
+                </ul>
 
-<section id="home" class="banner">
+            </nav>
 
-<div class="texto-banner">
+            <button id="menu-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
-<h2>Transformamos ideias em experiências digitais.</h2>
+        </div>
 
-<p>
-    Criamos sites modernos, identidades visuais
-    e estratégias digitais para destacar sua marca.
-</p>
+    </header>
 
-<a href="#servicos" class="btn">
-    Conheça nossos serviços
-</a>
+    <!-- HERO -->
 
-</div>
+    <section id="home" class="hero">
 
+        <div class="container hero-content">
 
-    <!-- Sobre -->
+            <div class="hero-text">
 
-<section id="sobre">
+                <span>WE BUILD THE FUTURE</span>
 
-<div class="imagem">
+                <h1>
+                    Transformamos ideias em experiências digitais.
+                </h1>
 
-<img src="imagens/sobre.jpg" srcset="
-    imagens/sobre.jpg 1200w,
-    imagens/sobre-mobile.jpg 600w" sizes="(max-width:768px) 100vw, 50vw" alt="Equipe da agência">
+                <p>
+                    Criamos websites modernos, identidade visual,
+                    marketing digital e sistemas personalizados
+                    para empresas que desejam crescer.
+                </p>
 
-</div>
+                <div class="hero-buttons">
 
-<div class="conteudo">
+                    <a href="#contato" class="btn-principal">
+                        Solicitar Orçamento
+                    </a>
 
-<h2>Sobre Nós</h2>
+                    <a href="#portfolio" class="btn-secundario">
+                        Ver Projetos
+                    </a>
 
-<p>
+                </div>
 
-    A Nova Design é uma agência especializada em
-    desenvolvimento web, design gráfico e branding.
+            </div>
 
-    Nosso objetivo é criar soluções criativas,
-    modernas e eficientes para empresas que desejam
-    crescer no ambiente digital.
+            <div class="hero-img">
 
-</p>
+                <img src="imagens/hero.png"
+                    alt="Agência Digital">
 
-<h3>Nossos Valores</h3>
-
-<ul>
-
-    <li>✔ Criatividade</li>
-
-    <li>✔ Inovação</li>
-
-    <li>✔ Qualidade</li>
-
-    <li>✔ Transparência</li>
-
-    <li>✔ Compromisso</li>
-
-</ul>
-
-</div>
-
-    </section>
-
-    <!-- Serviços -->
-
-    <section id="servicos">
-
-        <h2>Nossos Serviços</h2>
-
-<div class="grid-servicos"> 
-
-<article class="card">
-
-    <h3>🎨 Design Gráfico</h3>
-
-<p>
-    Logotipos, identidade visual,
-    banners e materiais gráficos.
- </p>
-
-</article>
-
-<article class="card">
-
-    <h3>💻 Desenvolvimento Web</h3>
-
-    <p>
-        Sites responsivos,
-        landing pages
-        e sistemas web.
-    </p>
-
-</article>
-
-<article class="card">
-
-    <h3>🚀 Marketing Digital</h3>
-
-<p>
-    SEO,
-    Google Ads,
-    campanhas e redes sociais.
-</p>
-
-</article>
-
-<article class="card">
-
-<h3>📱 UI / UX Design</h3>
-
-<p>
-    Interfaces modernas
-    focadas na experiência do usuário.
-</p>
-
-</article>
-
-<article class="card">
-
-    <h3>🎯 Branding</h3>
-
-    <p>
-        Construção e fortalecimento
-        da identidade da sua marca.
-    </p>
-
-</article>
-
-<article class="card">
-
-<h3>📷 Produção de Conteúdo</h3>
-
-<p>
-    Fotos, vídeos
-    e conteúdo para redes sociais.
-</p>
-
-</article>
-
- </div>
-
-</section>
-
-    <!-- Depoimentos -->
-
-<section id="depoimentos">
-
-<h2>O que nossos clientes dizem</h2>
-
-<div class="cards-depoimentos">
-
-<div class="depoimento">
-
-    <p>
-
-      "Nossa empresa cresceu muito
-       depois do novo site desenvolvido
-       pela Nova Design."
-
-    </p>
-
-    <h4>★★★★★</h4>
-
-    <span>Carlos Mendes</span>
-
-</div>
-
-<div class="depoimento">
-
-    <p>
-
-        "Equipe extremamente profissional.
-        Atendimento excelente."
-
-    </p>
-
-    <h4>★★★★★</h4>
-
-    <span>Fernanda Silva</span>
-
-</div>
-
-<div class="depoimento">
-
-    <p>
-
-        "Entrega rápida,
-        design incrível
-        e suporte de qualidade."
-
-    </p>
-
-    <h4>★★★★★</h4>
-
-    <span>Ricardo Oliveira</span>
-
-</div>
-
- </div>
-
-    </section>
-
-    <!-- Contato -->
-
-    <section id="contato">
-
-<h2>Entre em Contato</h2>
-
-<div class="contato">
-
-<div class="informacoes">
-
-    <h3>Informações</h3>
-
-    <p>📍 São Paulo - SP</p>
-
-    <p>📞 (11) 99999-9999</p>
-
-    <p>✉ contato@novadesign.com</p>
-
-</div>
-
-<form>
-
-    <input type="text" placeholder="Seu nome" required>
-
-    <input type="email" placeholder="Seu e-mail" required>
-
-    <textarea placeholder="Digite sua mensagem" rows="6" required></textarea>
-
-    <button type="submit">
-    Enviar Mensagem
-</button>
-
-</form>
+            </div>
 
         </div>
 
     </section>
 
-    <!-- Rodapé -->
+    <!-- SOBRE -->
 
-<footer>
+    <section id="sobre">
 
- <p>
+        <div class="container sobre">
 
-    © 2026 Nova Design.
-    Todos os direitos reservados.
+            <div class="sobre-img">
 
- </p>
+                <img src="imagens/sobre.jpg"
+                    alt="Equipe">
 
-</footer>
+            </div>
 
-</body>
+            <div class="sobre-text">
 
-</html>
+                <span>QUEM SOMOS</span>
+
+                <h2>
+                    Somos apaixonados por Design e Tecnologia.
+                </h2>
+
+                <p>
+
+                    Desenvolvemos soluções completas para empresas
+                    que desejam fortalecer sua marca e conquistar
+                    mais clientes através da internet.
+
+                </p>
+
+                <div class="numeros">
+
+                    <div>
+
+                        <h3 class="contador" data-numero="150">0</h3>
+
+                        <span>Projetos</span>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="contador" data-numero="80">0</h3>
+
+                        <span>Clientes</span>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="contador" data-numero="5">0</h3>
+
+                        <span>Anos</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SERVIÇOS -->
+
+    <section id="servicos">
+
+        <div class="container">
+
+            <h2>Serviços</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>UI / UX Design</h3>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Marketing Digital</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PORTFÓLIO -->
+
+    <section id="portfolio">
+
+        <div class="container">
+
+            <h2>Projetos</h2>
+
+            <div class="portfolio-grid">
+
+                <img src="imagens/projeto1.jpg" alt="">
+                <img src="imagens/projeto2.jpg" alt="">
+                <img src="imagens/projeto3.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DEPOIMENTOS -->
+        <section id="depoimentos">
+
+    <div class="container">
+
+        <h2>O que nossos clientes dizem</h2>
+
+        <div class="carrossel">
+
+            <div class="slides">
+
+                <div class="depoimento active">
+
+                    <p>
+                        "Excelente atendimento. Nosso site ficou incrível e aumentamos nossas vendas."
+                    </p>
+
+                    <h4>João Silva</h4>
+
+                </div>
+
+                <div class="depoimento">
+
+                    <p>
+                        "Equipe muito profissional. O projeto foi entregue antes do prazo."
+                    </p>
+
+                    <h4>Maria Souza</h4>
+
+                </div>
+
+                <div class="depoimento">
+
+                    <p>
+                        "A identidade visual ficou perfeita. Recomendo para qualquer empresa."
+                    </p>
+
+                    <h4>Carlos Mendes</h4>
+
+                </div>
+
+            </div>
+
+            <div class="indicadores">
+
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+  
+
+
+    <!-- CONTATO -->
+
+    <section id="contato">
+
+        <div class="container">
+
+            <h2>Entre em Contato</h2>
+
+            <form id="formContato">
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Seu nome"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Seu e-mail"
+                    required>
+
+                <textarea
+                    id="mensagem"
+                    placeholder="Sua mensagem"
+                    required></textarea>
+
+                <button type="submit">
+
+                    Enviar Mensagem
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+
+            © <span id="ano"></span> Nova Design.
+            Todos os direitos reservados.
+
+        </p>
+
+    </footer>
+
+    <!-- BOTÃO TOPO -->
+
+    <button id="voltarTopo">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <script src="script.js"></script>
 
 </body>
 
