@@ -2,7 +2,9 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Nova Design | Agência Digital</title>
@@ -21,327 +23,674 @@
         rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
+    <link
+        rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-    <header id="header">
+    <header class="header" id="header">
 
-        <div class="container">
+        <div class="container header__container">
 
-            <div class="logo">
-                <h2>Nova<span>Design</span></h2>
-            </div>
+            <a href="#home" class="header__logo">
+                Nova<span>Design</span>
+            </a>
 
-            <nav id="menu">
+            <nav class="header__nav" id="menu">
 
-                <ul>
+                <ul class="header__nav-list">
 
-                    <li><a href="#home">Home</a></li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#home">
+                            Home
+                        </a>
+                    </li>
 
-                    <li><a href="#sobre">Sobre</a></li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#sobre">
+                            Sobre
+                        </a>
+                    </li>
 
-                    <li><a href="#servicos">Serviços</a></li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#servicos">
+                            Serviços
+                        </a>
+                    </li>
 
-                    <li><a href="#portfolio">Projetos</a></li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#portfolio">
+                            Projetos
+                        </a>
+                    </li>
 
-                    <li><a href="#depoimentos">Clientes</a></li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#depoimentos">
+                            Clientes
+                        </a>
+                    </li>
 
-                    <li><a href="#contato">Contato</a></li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#contato">
+                            Contato
+                        </a>
+                    </li>
 
                 </ul>
 
             </nav>
 
-            <button id="menu-mobile">
+            <button
+                class="header__button"
+                id="menu-mobile"
+                aria-label="Abrir menu">
+
                 <i class="fa-solid fa-bars"></i>
+
             </button>
 
         </div>
 
     </header>
 
-    <!-- HERO -->
 
-    <section id="home" class="hero">
+    <main>
 
-        <div class="container hero-content">
+        <!-- =========================
+             HERO
+        ========================== -->
 
-            <div class="hero-text">
+        <section class="hero" id="home">
 
-                <span>WE BUILD THE FUTURE</span>
+            <div class="container hero__container">
 
-                <h1>
-                    Transformamos ideias em experiências digitais.
-                </h1>
+                <div class="hero__content">
 
-                <p>
-                    Criamos websites modernos, identidade visual,
-                    marketing digital e sistemas personalizados
-                    para empresas que desejam crescer.
-                </p>
+                    <span class="hero__label">
+                        WE BUILD THE FUTURE
+                    </span>
 
-                <div class="hero-buttons">
+                    <h1 class="hero__title">
+                        Transformamos ideias em experiências digitais.
+                    </h1>
 
-                    <a href="#contato" class="btn-principal">
-                        Solicitar Orçamento
-                    </a>
+                    <p class="hero__description">
+                        Criamos websites modernos, identidade visual,
+                        marketing digital e sistemas personalizados
+                        para empresas que desejam crescer.
+                    </p>
 
-                    <a href="#portfolio" class="btn-secundario">
-                        Ver Projetos
-                    </a>
+                    <div class="hero__buttons">
 
-                </div>
+                        <a
+                            href="#contato"
+                            class="button button--primary">
 
-            </div>
+                            Solicitar Orçamento
 
-            <div class="hero-img">
+                        </a>
 
-                <img src="imagens/hero.png"
-                    alt="Agência Digital">
+                        <a
+                            href="#portfolio"
+                            class="button button--outline">
 
-            </div>
+                            Ver Projetos
 
-        </div>
-
-    </section>
-
-    <!-- SOBRE -->
-
-    <section id="sobre">
-
-        <div class="container sobre">
-
-            <div class="sobre-img">
-
-                <img src="imagens/sobre.jpg"
-                    alt="Equipe">
-
-            </div>
-
-            <div class="sobre-text">
-
-                <span>QUEM SOMOS</span>
-
-                <h2>
-                    Somos apaixonados por Design e Tecnologia.
-                </h2>
-
-                <p>
-
-                    Desenvolvemos soluções completas para empresas
-                    que desejam fortalecer sua marca e conquistar
-                    mais clientes através da internet.
-
-                </p>
-
-                <div class="numeros">
-
-                    <div>
-
-                        <h3 class="contador" data-numero="150">0</h3>
-
-                        <span>Projetos</span>
-
-                    </div>
-
-                    <div>
-
-                        <h3 class="contador" data-numero="80">0</h3>
-
-                        <span>Clientes</span>
-
-                    </div>
-
-                    <div>
-
-                        <h3 class="contador" data-numero="5">0</h3>
-
-                        <span>Anos</span>
+                        </a>
 
                     </div>
 
                 </div>
 
+
+                <div class="hero__image">
+
+                    <img
+                        src="imagens/hero.png"
+                        alt="Ilustração de uma agência digital">
+
+                </div>
+
             </div>
 
-        </div>
+        </section>
 
-    </section>
 
-    <!-- SERVIÇOS -->
+        <!-- =========================
+             SOBRE
+        ========================== -->
 
-    <section id="servicos">
+        <section class="section" id="sobre">
+
+            <div class="container about">
+
+                <div class="about__image">
+
+                    <img
+                        src="imagens/sobre.jpg"
+                        alt="Equipe da Nova Design trabalhando">
+
+                </div>
+
+
+                <div class="about__content">
+
+                    <span class="about__label">
+                        QUEM SOMOS
+                    </span>
+
+                    <h2 class="about__title">
+                        Somos apaixonados por Design e Tecnologia.
+                    </h2>
+
+                    <p class="about__description">
+                        Desenvolvemos soluções completas para empresas
+                        que desejam fortalecer sua marca e conquistar
+                        mais clientes através da internet.
+                    </p>
+
+
+                    <div class="about__stats">
+
+                        <div class="about__stat">
+
+                            <h3
+                                class="about__number contador"
+                                data-numero="150">
+                                0
+                            </h3>
+
+                            <span class="about__stat-name">
+                                Projetos
+                            </span>
+
+                        </div>
+
+
+                        <div class="about__stat">
+
+                            <h3
+                                class="about__number contador"
+                                data-numero="80">
+                                0
+                            </h3>
+
+                            <span class="about__stat-name">
+                                Clientes
+                            </span>
+
+                        </div>
+
+
+                        <div class="about__stat">
+
+                            <h3
+                                class="about__number contador"
+                                data-numero="5">
+                                0
+                            </h3>
+
+                            <span class="about__stat-name">
+                                Anos
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVIÇOS
+        ========================== -->
+
+        <section class="section section--dark" id="servicos">
+
+            <div class="container">
+
+                <div class="section__header">
+
+                    <span class="section__label">
+                        O QUE FAZEMOS
+                    </span>
+
+                    <h2 class="section__title">
+                        Nossos Serviços
+                    </h2>
+
+                    <p class="section__description">
+                        Soluções digitais pensadas para ajudar
+                        sua empresa a crescer.
+                    </p>
+
+                </div>
+
+
+                <div class="services">
+
+                    <!-- Serviço 1 -->
+
+                    <article class="services__card">
+
+                        <div class="services__icon">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </div>
+
+                        <h3 class="services__title">
+                            Desenvolvimento Web
+                        </h3>
+
+                        <p class="services__description">
+                            Sites modernos, rápidos, responsivos
+                            e desenvolvidos para gerar resultados.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Serviço 2 -->
+
+                    <article class="services__card">
+
+                        <div class="services__icon">
+
+                            <i class="fa-solid fa-palette"></i>
+
+                        </div>
+
+                        <h3 class="services__title">
+                            UI / UX Design
+                        </h3>
+
+                        <p class="services__description">
+                            Interfaces modernas focadas na
+                            experiência do usuário.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Serviço 3 -->
+
+                    <article class="services__card">
+
+                        <div class="services__icon">
+
+                            <i class="fa-solid fa-chart-line"></i>
+
+                        </div>
+
+                        <h3 class="services__title">
+                            Marketing Digital
+                        </h3>
+
+                        <p class="services__description">
+                            SEO, Google Ads, campanhas e
+                            estratégias para redes sociais.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Serviço 4 -->
+
+                    <article class="services__card">
+
+                        <div class="services__icon">
+
+                            <i class="fa-solid fa-bullseye"></i>
+
+                        </div>
+
+                        <h3 class="services__title">
+                            Branding
+                        </h3>
+
+                        <p class="services__description">
+                            Construção e fortalecimento da
+                            identidade da sua marca.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PORTFÓLIO
+        ========================== -->
+
+        <section class="section" id="portfolio">
+
+            <div class="container">
+
+                <div class="section__header">
+
+                    <span class="section__label">
+                        NOSSO TRABALHO
+                    </span>
+
+                    <h2 class="section__title">
+                        Projetos
+                    </h2>
+
+                    <p class="section__description">
+                        Alguns dos projetos desenvolvidos
+                        pela Nova Design.
+                    </p>
+
+                </div>
+
+
+                <div class="portfolio">
+
+                    <article class="portfolio__item">
+
+                        <img
+                            class="portfolio__image"
+                            src="imagens/projeto1.jpg"
+                            alt="Projeto de desenvolvimento web">
+
+                        <div class="portfolio__overlay">
+
+                            <h3 class="portfolio__title">
+                                Projeto Web
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="portfolio__item">
+
+                        <img
+                            class="portfolio__image"
+                            src="imagens/projeto2.jpg"
+                            alt="Projeto de identidade visual">
+
+                        <div class="portfolio__overlay">
+
+                            <h3 class="portfolio__title">
+                                Identidade Visual
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="portfolio__item">
+
+                        <img
+                            class="portfolio__image"
+                            src="imagens/projeto3.jpg"
+                            alt="Projeto de marketing digital">
+
+                        <div class="portfolio__overlay">
+
+                            <h3 class="portfolio__title">
+                                Marketing Digital
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DEPOIMENTOS
+        ========================== -->
+
+        <section
+            class="section section--dark"
+            id="depoimentos">
+
+            <div class="container">
+
+                <div class="section__header">
+
+                    <span class="section__label">
+                        DEPOIMENTOS
+                    </span>
+
+                    <h2 class="section__title">
+                        O que nossos clientes dizem
+                    </h2>
+
+                </div>
+
+
+                <div class="testimonials">
+
+                    <div class="testimonials__slides">
+
+
+                        <!-- Depoimento 1 -->
+
+                        <article
+                            class="testimonials__card testimonials__card--active">
+
+                            <div class="testimonials__stars">
+                                ★★★★★
+                            </div>
+
+                            <p class="testimonials__text">
+                                "Excelente atendimento. Nosso site
+                                ficou incrível e aumentamos nossas
+                                vendas."
+                            </p>
+
+                            <h4 class="testimonials__name">
+                                João Silva
+                            </h4>
+
+                        </article>
+
+
+                        <!-- Depoimento 2 -->
+
+                        <article class="testimonials__card">
+
+                            <div class="testimonials__stars">
+                                ★★★★★
+                            </div>
+
+                            <p class="testimonials__text">
+                                "Equipe muito profissional.
+                                O projeto foi entregue antes
+                                do prazo."
+                            </p>
+
+                            <h4 class="testimonials__name">
+                                Maria Souza
+                            </h4>
+
+                        </article>
+
+
+                        <!-- Depoimento 3 -->
+
+                        <article class="testimonials__card">
+
+                            <div class="testimonials__stars">
+                                ★★★★★
+                            </div>
+
+                            <p class="testimonials__text">
+                                "A identidade visual ficou perfeita.
+                                Recomendo para qualquer empresa."
+                            </p>
+
+                            <h4 class="testimonials__name">
+                                Carlos Mendes
+                            </h4>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="testimonials__dots">
+
+                        <button
+                            class="testimonials__dot testimonials__dot--active"
+                            aria-label="Mostrar primeiro depoimento">
+                        </button>
+
+                        <button
+                            class="testimonials__dot"
+                            aria-label="Mostrar segundo depoimento">
+                        </button>
+
+                        <button
+                            class="testimonials__dot"
+                            aria-label="Mostrar terceiro depoimento">
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTATO
+        ========================== -->
+
+        <section class="section" id="contato">
+
+            <div class="container">
+
+                <div class="section__header">
+
+                    <span class="section__label">
+                        FALE CONOSCO
+                    </span>
+
+                    <h2 class="section__title">
+                        Entre em Contato
+                    </h2>
+
+                    <p class="section__description">
+                        Tem um projeto em mente?
+                        Vamos conversar.
+                    </p>
+
+                </div>
+
+
+                <div class="contact">
+
+                    <form
+                        class="contact__form"
+                        id="formContato">
+
+                        <input
+                            class="contact__input"
+                            type="text"
+                            id="nome"
+                            placeholder="Seu nome"
+                            required>
+
+
+                        <input
+                            class="contact__input"
+                            type="email"
+                            id="email"
+                            placeholder="Seu e-mail"
+                            required>
+
+
+                        <textarea
+                            class="contact__textarea"
+                            id="mensagem"
+                            placeholder="Sua mensagem"
+                            required></textarea>
+
+
+                        <button
+                            class="button button--primary contact__button"
+                            type="submit">
+
+                            Enviar Mensagem
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
 
         <div class="container">
 
-            <h2>Serviços</h2>
+            <p class="footer__text">
 
-            <div class="cards">
+                © <span id="ano"></span>
+                Nova Design.
+                Todos os direitos reservados.
 
-                <div class="card">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Desenvolvimento Web</h3>
-                </div>
-
-                <div class="card">
-                    <i class="fa-solid fa-palette"></i>
-                    <h3>UI / UX Design</h3>
-                </div>
-
-                <div class="card">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <h3>Marketing Digital</h3>
-                </div>
-
-            </div>
+            </p>
 
         </div>
-
-    </section>
-
-    <!-- PORTFÓLIO -->
-
-    <section id="portfolio">
-
-        <div class="container">
-
-            <h2>Projetos</h2>
-
-            <div class="portfolio-grid">
-
-                <img src="imagens/projeto1.jpg" alt="">
-                <img src="imagens/projeto2.jpg" alt="">
-                <img src="imagens/projeto3.jpg" alt="">
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- DEPOIMENTOS -->
-        <section id="depoimentos">
-
-    <div class="container">
-
-        <h2>O que nossos clientes dizem</h2>
-
-        <div class="carrossel">
-
-            <div class="slides">
-
-                <div class="depoimento active">
-
-                    <p>
-                        "Excelente atendimento. Nosso site ficou incrível e aumentamos nossas vendas."
-                    </p>
-
-                    <h4>João Silva</h4>
-
-                </div>
-
-                <div class="depoimento">
-
-                    <p>
-                        "Equipe muito profissional. O projeto foi entregue antes do prazo."
-                    </p>
-
-                    <h4>Maria Souza</h4>
-
-                </div>
-
-                <div class="depoimento">
-
-                    <p>
-                        "A identidade visual ficou perfeita. Recomendo para qualquer empresa."
-                    </p>
-
-                    <h4>Carlos Mendes</h4>
-
-                </div>
-
-            </div>
-
-            <div class="indicadores">
-
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-  
-
-
-    <!-- CONTATO -->
-
-    <section id="contato">
-
-        <div class="container">
-
-            <h2>Entre em Contato</h2>
-
-            <form id="formContato">
-
-                <input
-                    type="text"
-                    id="nome"
-                    placeholder="Seu nome"
-                    required>
-
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="Seu e-mail"
-                    required>
-
-                <textarea
-                    id="mensagem"
-                    placeholder="Sua mensagem"
-                    required></textarea>
-
-                <button type="submit">
-
-                    Enviar Mensagem
-
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <p>
-
-            © <span id="ano"></span> Nova Design.
-            Todos os direitos reservados.
-
-        </p>
 
     </footer>
 
-    <!-- BOTÃO TOPO -->
 
-    <button id="voltarTopo">
+    <!-- =========================
+         BOTÃO VOLTAR AO TOPO
+    ========================== -->
+
+    <button
+        class="back-top"
+        id="voltarTopo"
+        aria-label="Voltar ao topo">
 
         <i class="fa-solid fa-arrow-up"></i>
 
     </button>
+
+
+    <!-- JAVASCRIPT -->
 
     <script src="script.js"></script>
 
